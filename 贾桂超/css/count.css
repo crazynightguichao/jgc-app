@@ -1,0 +1,280 @@
+.count-box{
+	width: 7.5rem;
+	height: 13.26rem;
+	background: #f8f8f8;
+}
+/* 个人中心头部开始 */
+.count-head{
+	width: 100%;
+	height: 1.1rem;
+	background: #835f3d;
+	font-size: 0.36rem;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 1.1rem;
+	position: relative;
+}
+.count-head i{
+	position: absolute;
+	top: 0;
+	left: 0.24rem;
+	cursor: pointer;
+}
+.count-bdone{
+	height: 1.5rem;
+	background: #FFFFFF;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+}
+.count-bdone-s{
+	height: 0.6rem;
+	font-size: 0.24rem;
+	color: #242424;
+	line-height: 0.6rem;
+}
+.bdone-s-l{
+	float: left;
+}	
+.bdone-s-r{
+	float: right;
+}
+.count-bdone-z{
+	height: 0.9rem;
+	font-size: 0.24rem;
+	color: #161616;
+	white-space: wrap;
+	font-weight: 200;
+}
+.count-bdone-z i{
+	float: right;
+	margin-top: -0.3rem;
+}
+.count-bdtwo{
+	height: 0.82rem;
+	margin-top: 0.08rem;
+	background: #FFFFFF;
+	font-size: 0.24rem;
+	color: #161616;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	line-height: 0.82rem;
+}
+.count-body{
+	height: 5.66rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	background: #FFFFFF;
+	margin-top: 0.06rem;
+}
+.count-bdthree{
+	width: 7rem;
+	height: 1.88rem;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.bdthree-l{
+	width: 1.4rem;
+	height: 1.3rem;
+	margin: auto 0;
+}
+.bdthree-l img{
+	width: 100%;
+	height: 100%;
+}
+.bdthree-z{
+	width: 4.1rem;
+	margin-left: 0.3rem;
+}
+.bdthree-z-s{
+	height: 0.64rem;
+	font-size: 0.24rem;
+	color: #0c0c0c;
+	line-height: 0.64rem;
+}
+.bdthree-z-z{
+	height: 0.56rem;
+	font-size: 0.3rem;
+	color: #ef1d1d;
+	line-height: 0.56rem;
+}
+.bdthree-z-x{
+	height: 0.68rem;
+	color: #afafaf;
+	font-size: 0.24rem;
+	line-height: 0.68rem;
+}
+.bdthree-r{
+	width: 1rem;
+	font-size: 0.24rem;
+	color: #a3a3a3;
+	text-align: center;
+	line-height: 1.88rem;
+}
+.count-four{
+	height: 0.9rem;
+	border-top: 0.04rem solid #f3f3f3;
+}
+.four-l{
+	width: 1.38rem;
+	font-size: 0.24rem;
+	color: #454545;
+	float: left;
+	text-align: center;
+	line-height: 0.9rem;
+}
+.four-r{
+	width: 1.38rem;
+	font-size: 0.24rem;
+	color: #454545;
+	font-weight: 200;
+	float: right;
+	text-align: center;
+	line-height: 0.9rem;
+}
+.count-five{
+	height: 0.9rem;
+	border-top: 0.04rem solid #f3f3f3;
+}
+.five-l{
+	width: 1.38rem;
+	font-size: 0.24rem;
+	color: #454545;
+	float: left;
+	text-align: center;
+	line-height: 0.9rem;
+}
+.five-r{
+	width: 1.38rem;
+	font-size: 0.24rem;
+	color: #454545;
+	font-weight: 200;
+	float: right;
+	text-align: center;
+	line-height: 0.9rem;
+}
+.count-six{
+	height: 0.9rem;
+	border-top: 0.04rem solid #f3f3f3;
+}
+.six-l{
+	width: 1.38rem;
+	font-size: 0.24rem;
+	color: #454545;
+	float: left;
+	text-align: center;
+	line-height: 0.9rem;
+}
+.six-r{
+	width: 5.6rem;
+	height: 0.8rem;
+	float: right;
+	margin-top: 0.1rem;
+}
+.six-r .count-input{
+	display: block;
+	width: 100%;
+	height: 100%;
+	outline: none;/* 去掉默认选中状态 */
+	border-radius: 0.3rem;
+	font-size: 0.18rem;
+	white-space: wrap;
+	font-weight: 200;
+}
+.count-input::-webkit-input-placeholder{/* 改字体颜色... */
+	color: #454545;
+}
+.count-seven{
+	height: 0.9rem;
+	border-top: 0.04rem solid #f3f3f3;
+}
+.seven-l{
+	width: 1.8rem;
+	font-size: 0.24rem;
+	color: #454545;
+	float: left;
+	text-align: center;
+	line-height: 0.9rem;
+}
+.seven-r{
+	width: 3rem;
+	font-size: 0.18rem;
+	float: right;
+	line-height: 0.9rem;
+	text-align: center;
+}
+.seven-r span{
+	font-size: 0.24rem;
+	color: #ef1d1d;
+}
+.count-eight{
+	height: 0.88rem;
+	background: #FFFFFF;
+	margin-top: 0.08rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+}
+.eight-l{
+	width: 2.24rem;
+	line-height: 0.88rem;
+	color: #454545;
+	font-size: 0.24rem;
+	float: left;
+}
+.count-eight i{
+	float: right;
+	margin-top: 0.3rem;
+}
+.count-nine{
+	height: 1.83rem;
+	background: #FFFFFF;
+	margin-top: 0.08rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+}
+.nine-item{
+	height: 0.61rem;
+	display: flex;
+	justify-content: space-between;
+}
+.nine-item-l{
+	width: 1.4rem;
+	font-size: 0.24rem;
+	line-height: 0.61rem;
+}
+.nine-item-r{
+	width: 1.4rem;
+	font-size: 0.24rem;
+	line-height: 0.61rem;
+	color: #ef2929;
+	text-align: right;
+}
+/* 结算底部开始 */
+.count-bottom{
+	height: 1.12rem;
+	padding-left: 0.24rem;
+	box-sizing: border-box;
+	
+}
+.count-bottom-l{
+	width: 0.8rem;
+	font-size: 0.24rem;
+	line-height: 1.12rem;
+	float: left;
+}
+.count-bottom-z{
+	width: 0.8rem;
+	font-size: 0.24rem;
+	line-height: 1.12rem;
+	color: #ef2929;
+	float: left;
+}
+.count-bottom-r{
+	width: 2.2rem;
+	font-size: 0.24rem;
+	line-height: 1.12rem;
+	float: right;
+	background: #b60a08;
+	text-align: center;
+}
+/* 结算底部结束 */

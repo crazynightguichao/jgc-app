@@ -1,0 +1,365 @@
+.big-box{
+	width: 7.5rem;
+	height: 71rem;
+	background: #dfdede;
+	
+}
+/* 首页头部开始 */
+.index-head{
+	width: 100%;
+	height: 2rem;
+	background: #835f3d;
+	/* display: flex; */
+	position: relative;
+	
+}
+.index-head h2{
+	color: #fff;
+	font-size: 0.36rem;
+	font-weight: 200;
+	text-align: center;
+	line-height: 2rem;
+}
+.index-head i{
+	position: absolute;
+	top: 0.8rem;
+	left: 0.3rem;
+	color: #FFFFFF;
+}
+/* 首页头部结束 */
+
+/* 轮播图开始 */
+.detail-banner{
+	width: 100%;
+	height: 7.5rem;
+	position: relative;
+}
+.detail-banner img{
+	width: 100%;
+	height: 100%;
+}
+.dots{
+	width: 2rem;
+	height: 0.24rem;
+	/* background: green; */
+	position: absolute;
+	bottom: 0.3rem;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.dot{
+	width: 0.24rem;
+	height: 0.24rem;
+	background: #a7a7a7;
+	border-radius: 50%;
+}
+.dot.dot-hover{
+	background: #2A1311;
+}
+/* 轮播图结束 */
+
+/* 果干蜜饯系列开始 */
+.detail-bdone{
+	width: 100%;
+	height: 2.3rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	overflow: hidden;
+	background: #FFFFFF;
+}
+.bdone-title{
+	font-size: 0.36rem;
+	font-family: 苹方;
+	color: #222222;
+	margin-top: 0.36rem;
+	margin-left: 0;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.bdone-bd{
+	font-size: 0.3rem;
+	font-family: 苹方;
+	color: #707070;
+	margin-top: 0.3rem;
+	margin-left: 0;
+}
+.bdone-price{
+	font-size: 0.3rem;
+	font-family: 苹方;
+	color: #ff0000;
+	margin-top: 0.3rem;
+	margin-left: 0;
+}
+.detail-bdtwo{
+	width: 100%;
+	height: 1.9rem;
+	background: #FFFFFF;
+	margin-top: 0.08rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.bdtwo-s{
+	width: 1.2rem;
+	height: 0.3rem;
+	margin-top: 0.3rem;
+	margin-left: 0.25rem;
+	font-size: 0.3rem;
+	color: #555555;
+}
+.bdtwo-x{
+	width: 6rem;
+	height: 0.7rem;
+	margin: 0.2rem auto;
+	display: flex;
+	justify-content: space-between;
+}
+.bdtwo-xia{
+	font-size: 0.3rem;
+	border: 0.02rem solid #9a9a9a;
+	text-align: center;
+	line-height: 0.7rem;
+}
+.detail-bdthree{
+	width: 100%;
+	height: 1.7rem;
+	background: #FFFFFF;
+	margin-top: 0.1rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.bdthree-l{
+	width: 1rem;
+	height: 0.5rem;
+	float: left;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.5rem;
+	margin-top: 0.25rem;
+}
+.bdthree-left i{
+	float: right;
+	margin-top: 0.3rem;
+	
+}
+.bdthree-x{
+	width: 5.5rem;
+	height: 1.3rem;
+	margin: 0.3rem auto;
+	font-size: 0.24rem;
+	
+}
+.bdthree-x-bd{
+	width: 5.5rem;
+	height: 0.4rem;
+	font-size: 0.24rem;
+	color: #191818;
+}
+.bdthree-x-bd i{
+	color: #d52107;
+}
+.bdthree-x-bdy i{
+	color: #888888;
+}
+.bdthree-x-bdy{
+	width: 5.5rem;
+	height: 0.4rem;
+	font-size: 0.24rem;
+	margin-left: 0.18rem;
+}
+.detail-four{
+	width: 100%;
+	height: 0.9rem;
+	margin-top: 0.1rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	overflow: hidden;
+	background: #FFFFFF;
+}
+.four-l{
+	width: 4rem;
+	height: 0.5rem;
+	margin-top: 0.2rem;
+	float: left;
+	font-size: 0.28rem;
+	margin-left: 0.2rem;
+	line-height: 0.5rem;
+}
+.four-l i{
+	color: #835f3d;
+}
+.four-r{
+	width: 1.5rem;
+	height: 0.5rem;
+	float: right;
+	margin-top: 0.2rem;
+	font-size: 0.24rem;
+	line-height: 0.5rem;
+}
+.four-r i{
+	float: right;
+}
+.detail-five{
+	width: 100%;
+	height: 0.62rem;
+	background: #FFFFFF;
+	margin-top: 0.1rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.five-l{
+	width: 2.5rem;
+	height: 100%;
+	color: #fe8080;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.62rem;
+	border-bottom: 0.03rem solid #fe8080;
+}
+.five-r{
+	width: 2.5rem;
+	height: 100%;
+	font-size: 0.28rem;
+	text-align: center;
+	line-height: 0.62rem;
+}
+/* 果干蜜饯系列结束 */
+/* 图片开始 */
+.detail-img{
+	width: 100%;
+	height: 32.4rem;
+}
+.detail-img img{
+	width: 100%;
+	height: 10.8rem;
+}
+.detail-imgs{
+	width: 100%;
+	height: 10.8rem;
+}
+.imgs-hd{
+	width: 100%;
+	height: 3.6rem;
+	
+}
+.img-hd-l{
+	width: 3.75rem;
+	height: 100%;
+	font-size: 0.24rem;
+	color: #484848;
+	text-align: center;
+	padding-top: 1.2rem;
+	box-sizing: border-box;
+	float: left;
+	background: #FFFFFF;
+}
+.img-hd-r{
+	width: 3.75rem;
+	height: 100%;
+	float: right;
+	
+}
+.img-hd-r img{
+	width: 100%;
+	height: 100%;
+}
+.imgs-bd{
+	width: 100%;
+	height: 3.6rem;
+}
+
+.img-bd-l{
+	width: 3.75rem;
+	height: 100%;
+	float: left;
+}
+.img-bd-l img{
+	width: 100%;
+	height: 100%;
+}
+.img-bd-r{
+	width: 3.75rem;
+	height: 100%;
+	font-size: 0.24rem;
+	color: #484848;
+	text-align: center;
+	padding-top: 1.2rem;
+	box-sizing: border-box;
+	float: right;
+	background: #FFFFFF;
+}
+
+.detail-imgss{
+	width: 100%;
+	height: 9.8rem;
+}
+.detail-imgss img{
+	width: 100%;
+	height: 100%;
+}
+
+/* 图片结束 */
+
+/* 底部开始 */
+.detail-bottom{
+	width: 100%;
+	height: 1.05rem;
+	background: #FFFFFF;
+	padding: 0 0 0 0.24rem;
+	box-sizing: border-box;
+	position: fixed;
+	top: 12.3rem;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.bottom-one{
+	width: 2.92rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	float: left;
+	margin-right: 0.2rem;
+	margin-top: 0.14rem;
+}
+.bottom-one-img{
+	width: 0.5rem;
+	height: 0.6rem;
+	font-size: 0.18rem;
+	text-align: center;
+}
+.bottom-one-img img{
+	width: 100%;
+	height: 100%;
+}
+.bottom-one-name-a{
+	white-space: nowrap;
+}
+.bottom-two{
+	width: 2.07rem;
+	height: 100%;
+	background: #cb363a;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 1rem;
+	color: #FFFFFF;
+	float: left;
+}
+.bottom-three{
+	width: 2.07rem;
+	height: 100%;
+	background: #dbb07d;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 1rem;
+	color: #FFFFFF;
+	float: right;
+}
+
+/* 底部结束 */

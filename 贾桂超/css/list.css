@@ -1,0 +1,186 @@
+.big-box{
+	width: 7.5rem;
+	height: 13.45rem;
+	background: #dfdede;
+}
+/* 列表页头部开始 */
+.list-head{
+	width: 100%;
+	height: 2rem;
+	background: #835f3d;
+	/* display: flex; */
+}
+.list-head h2{
+	color: #fff;
+	font-size: 0.36rem;
+	font-weight: 200;
+	text-align: center;
+	line-height: 1rem;
+	
+}
+.list-search{
+	width: 5.8rem;
+	height: 0.6rem;
+	/* background: red; */
+	margin: 0 auto;
+	position: relative;
+	
+}
+.list-search .list-input{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 0.3rem;
+	outline: none;/* 去掉默认选中状态 */
+	padding: 0 1.27rem;
+	box-sizing: border-box;
+}
+.list-input::-webkit-input-placeholder{/* 改字体颜色... */
+	color: #b0b0b0;
+	text-align: center;
+}
+.list-search i{
+	position:absolute ;
+	font-size: 0.3rem;
+	left: 2rem;
+	top: 0.18rem;
+	color: #b0b0b0;
+}
+/* 列表页头部结束 */
+
+/* 列表页内容开始 */
+.list-bd{
+	width: 100%;
+	height: 10rem;
+	background: #FFFFFF;
+	box-sizing: border-box;
+	/* overflow: hidden; */
+	border-bottom: 0.03rem solid #818181;
+}
+.list-bd-a{
+	width: 1.6rem;
+	height: 10rem;
+	float: left;
+	border-right: 0.03rem solid #818181;
+
+	
+}
+.list-dot.one{
+	width: 100%;
+	padding: 0;
+	/* background: red; */
+	font-size: 0.26rem;
+	font-size: 0.26rem;
+	color: #835f3d;
+	border-left: 0.06rem solid #835f3d;
+	margin-top: 0.2rem;
+}
+.list-dot{
+	text-align: center;
+	font-size: 0.26rem;
+	padding: 0 0.24rem;
+
+	line-height: 0.8rem;
+	color: #000000;
+}
+.list-bd-b{
+	width: 5.6rem;
+	height: 100%;
+	float: right;
+	background: #FFFFFF;
+	/* border-left: 0.02rem solid #99999; */
+}
+.bd-img{
+	width: 5.3rem;
+	height: 2.3rem;
+	background: red;
+	margin: 0.26rem auto 0;
+}
+.bd-img img{
+	width: 100%;
+	height: 100%;
+}
+.bd-renqi{
+	width: 100%;
+	height: 0.5rem;
+	text-align: center;
+	font-size: 0.26rem;
+	margin-top: 0;
+}
+.bd-items{
+	width: 5.7rem;
+	height: 6.9rem;
+}
+.bd-item{
+	width: 1.9rem;
+	height: 2.3rem;
+	/* background: blue; */
+	float: left;
+}
+.bd-item-img{
+	width: 100%;
+	height: 1.6rem;
+	margin: 0 auto;
+}
+.bd-item-img img{
+	width: 100%;
+	height: 100%;
+}
+.bd-item-b{
+	width: 100%;
+	height: 0.6rem;
+	font-size: 0.24rem;
+	color: #1c1b1b;
+	text-align: center;
+}
+/* 列表页内容结束 */
+
+/* 列表页底部开始 */
+.over{
+    width: 100%;
+	height: 1.4rem;
+	background: #FFFFFF;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+}
+.bottom-cate-list{
+	width: 100%;
+	height: 1.34rem;
+	/* background: green; */
+	margin-top: 0.25rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.1rem 0.24rem 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.bottom-cate-item{
+	width: 0.6rem;
+	height: 100%;
+}
+.bottom-cate-img{
+	width: 100%;
+	height: 0.6rem;
+	display: block;
+}
+.bottom-cate-item img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.bottom-cate-img .bottom-cate-name{
+	color: #999999;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.25rem;
+	white-space: nowrap;
+	margin-top: 0.16rem;
+}
+.bottom-cate-img .bottom-cate-name-a{
+	color: #cfa270;
+	font-size: 0.24rem;
+	text-align: center;
+	margin-top: 0.16rem;
+	white-space: nowrap;
+}
+/* 底部结束 */

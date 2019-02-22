@@ -1,0 +1,258 @@
+.self-box{
+	width: 7.5rem;
+	height: 15.9rem;
+	background: #f8f8f8;
+}
+/* 个人中心头部开始 */
+.self-head{
+	width: 100%;
+	height: 1.1rem;
+	background: #835f3d;
+	font-size: 0.36rem;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 1.1rem;
+	
+}
+.self-header{
+	width: 100%;
+	height: 2.42rem;
+	background: #845b34;
+	padding: 0.1rem 0.24rem 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+	position: relative;
+}
+.self-header-img{
+	width: 1.34rem;
+	height: 1.34rem;
+	border-radius: 50%;
+	margin-left: 0;
+	margin-top: 0.48rem;
+}
+.self-header-img img{
+	width: 100%;
+	height: 100%;
+}
+.self-header-name{
+	width: 2.3rem;
+	height: 1.34rem;
+	position: absolute;
+	top: 0.58rem;
+	left: 1.86rem;
+}
+.self-header-s{
+	width: 2.3rem;
+	height: 0.67rem;
+	font-size: 0.3rem;
+	color: #FFFFFF;
+	line-height: 0.67rem;
+}
+.self-header-x{
+	width: 2.06rem;
+	height: 0.22rem;
+	background: #9a9a9a;
+	font-size: 0.18rem;
+	text-align: center;
+	line-height: 0.22rem;
+	border-radius: 8%;
+}
+/* 个人中心头部结束 */
+
+/* 个人中心内容开始 */
+.envelopes{
+	width: 5.36rem;
+	height: 0.9rem;
+	background: #db5e5a;
+	border-radius: 0.45rem;
+	margin: 0.4rem auto 0;
+	border: 0.03rem soild #e9ca8a;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.envelopes .e-number{
+	color: #f2e4c7;
+	font-size: 0.4rem;
+	margin-right: 0.2rem;
+	margin-bottom: 0.1rem;
+}
+.e-number span{
+	font-size: 0.26rem;
+	margin-right: -0.15rem;
+}
+.envelopes .e-intro{
+	font-size: 0.3rem;
+	color: #F2E4C7;
+}
+.e-intro-text{
+	font-size: 0.12rem;
+	margin-bottom: 0.05rem;
+}
+.open{
+	width: 0.9rem;
+	height: 0.9rem;
+	background: #F2E4C7;
+	box-sizing: border-box;
+	border-radius: 50%;
+	color: #74530e;
+	font-size: 0.46rem;
+	text-align: center;
+	line-height: 0.8rem;
+	margin-right: -1.68rem;
+	border: 0.06rem solid #DB5E5A;
+}
+.self-bd{
+	width: 100%;
+	height: 1.16rem;
+	background: #FFFFFF;
+	margin-top: 0.28rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+}
+.self-bd-l{
+	width: 2.24rem;
+	height: 1.16rem;
+	float: left;
+	position: relative;
+}
+.self-l-img{
+	width: 0.6rem;
+	height: 0.8rem;
+	margin-top: -0.1rem;
+}
+.self-l-img img{
+	width: 100%;
+	height: 100%;
+	
+}
+.self-l-my{
+	width: 1.64rem;
+	height: 1rem;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 1rem;
+	position: absolute;
+	top: 0;
+	left: 0.8rem;
+}
+.self-bd-r{
+	float: right;
+	width: 0.5rem;
+	height: 100%;
+	line-height: 0.5rem;
+}
+
+.self-body{
+	width: 100%;
+	height: 1.16rem;
+	background: #FFFFFF;
+	margin-top: 0.04rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+}
+.self-body-l{
+	width: 2.24rem;
+	height: 1.16rem;
+	float: left;
+	position: relative;
+}
+.self-l-imgs{
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-top: -0.1rem;
+}
+.self-l-imgs img{
+	width: 100%;
+	height: 100%;
+	
+}
+.self-l-mys{
+	width: 1.64rem;
+	height: 1rem;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 1rem;
+	position: absolute;
+	top: 0;
+	left: 0.8rem;
+}
+.self-body-r{
+	float: right;
+	width: 0.5rem;
+	height: 100%;
+	line-height: 0.5rem;
+}
+/* 个人中心内容结束 */
+
+/* 底部开始 */
+.bottom-box{
+	width: 100%;
+	height: 2rem;
+	background: #dfdede;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	
+}
+.bottom-z{
+	width: 5.3rem;
+	height: 0.6rem;
+	font-size: 0.24rem;
+	color: #5b5b5b;
+	white-space: nowrap;
+}
+.over{
+    width: 100%;
+	height: 1.3rem;
+	background: #FFFFFF;
+	position: fixed;
+	top: 12rem;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+}
+.bottom-cate-list{
+	width: 100%;
+	height: 1rem;
+	/* background: green; */
+	margin-top: 0.25rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.1rem 0.24rem 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.bottom-cate-item{
+	width: 0.6rem;
+	height: 100%;
+}
+.bottom-cate-img{
+	width: 100%;
+	height: 0.6rem;
+	display: block;
+}
+.bottom-cate-item img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.bottom-cate-img .bottom-cate-name{
+	color: #999999;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.25rem;
+	white-space: nowrap;
+	margin-top: 0.16rem;
+}
+.bottom-cate-img .bottom-cate-name-a{
+	color: #cfa270;
+	font-size: 0.24rem;
+	text-align: center;
+	margin-top: 0.16rem;
+	white-space: nowrap;
+}
+/* 底部结束 */

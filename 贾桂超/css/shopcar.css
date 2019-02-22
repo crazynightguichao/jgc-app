@@ -1,0 +1,258 @@
+.shopcar-box{
+	width: 7.5rem;
+	height: 13.5rem;
+	background: #f2f2f2;
+}
+/* 购物车头部开始 */
+.shopcar-head{
+	width: 100%;
+	height: 2rem;
+	background: #835f3d;
+	/* display: flex; */
+}
+.shopcar-head h2{
+	color: #fff;
+	font-size: 0.36rem;
+	font-weight: 200;
+	text-align: center;
+	line-height: 2rem;
+}
+/* 购物车头部结束 */
+
+/* 购物车内容开始 */
+.shopcar-one{
+	width: 100%;
+	height: 0.9rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	background: #FFFFFF;
+}
+.shopcar-one-l{
+	width: 2rem;
+	height: 0.9rem;
+	float: left;
+	font-size: 0.24rem;
+	line-height: 0.9rem;
+}
+.shopcar-one-l i{
+	margin-left: 0.32rem;
+	color: #FFFFFF;
+	background: #d34843;
+	border-radius: 50%;
+}
+.shopcaar-one-r{
+	width: 2rem;
+	height: 0.9rem;
+	float: right;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.9rem;
+	color: #8b8b8b;
+}
+.shopcaar-one-r i{
+	color: #8a8a8a;
+}
+.shopcar-two{
+	width: 100%;
+	height: 2rem;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	margin: 0.06rem auto;
+	background: #FFFFFF;
+}
+.shopcar-two-l{
+	width: 0.58rem;
+	height: 1.7rem;
+	float: left;
+	
+}
+.shopcar-two-l i{
+	color: #FFFFFF;
+	background: #d34843;
+	border-radius: 50%;
+}
+.shopcar-one-img{
+	width: 1.7rem;
+	height: 1.7rem;
+	float: left;
+	margin-top: 0.18rem;
+}
+.shopcar-one-img img{
+	width: 100%;
+	height: 100%;
+}
+.shopcar-two-r{
+	width: 4.5rem;
+	height: 1.7rem;
+	margin-top: 0.18rem;
+	float: right;
+}
+.shopcar-r-title{
+	width: 4.46rem;
+	height: 0.75rem;
+	font-size: 0.24rem;
+	line-height: 0.75rem;
+	color: #0c0c0c;
+	font-weight: 400;
+}
+.shopcar-r-price{
+	width: 4.5rem;
+	height: 0.9rem;
+	color: #e30d0d;
+	font-size: 0.36rem;
+	line-height: 0.9rem;
+	position: relative;
+}	
+.shopcar-r-item{
+	width: 2.25rem;
+	height: 0.6rem;
+	background: #f3f3f3;
+	position: absolute;
+	top: 0;
+	right: 0.5rem;
+	border: 0.04rem solid #cecece;
+	display: flex;
+	justify-content: space-between;
+}
+.shopcar-r-san{
+	width: 1.06rem;
+	height: 100%;
+	margin: 0 auto;
+	background: #FFFFFF;
+	font-size: 0.36rem;
+	text-align: center;
+	line-height: 0.6rem;
+	color: #353535;
+}
+.shopcar-r-jian{
+	width: 0.6rem;
+	height: 100%;
+	text-align: center;
+	line-height: 0.6rem;
+	font-size: 0.36rem;
+	color: #cecece;
+	border-right: 0.04rem solid #cecece;
+}
+.shopcar-r-jia{
+	width: 0.6rem;
+	height: 100%;
+	text-align: center;
+	line-height: 0.6rem;
+	font-size: 0.36rem;
+	color: #cecece;
+	border-left: 0.04rem solid #cecece;
+}
+.shopcaar-three{
+	width: 100%;
+	height: 1.16rem;
+	padding: 0 0 0 0.24rem;
+	box-sizing: border-box;
+	margin: 6rem 0 0 0;
+	display: flex;
+	justify-content: space-between;
+	background: #FFFFFF;
+}
+.shopcar-three-l{
+	width: 0.3rem;
+	height: 100%;
+	
+}
+.shopcar-three-l i{
+	display: block;
+	color: #FFFFFF;
+	background: #d34843;
+	border-radius: 50%;
+	margin: 0.42rem auto;
+}
+.shopcar-three-quan{
+	width: 1.5rem;
+	height: 100%;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 1.16rem;
+	color: #3e3e3e;
+}
+.shopcar-three-xuan{
+	width: 1.4rem;
+	height: 100%;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 1.16rem;
+	color: #a2a2a2;
+}
+.shopcar-three-heji{
+	width: 0.96rem;
+	height: 100%;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 1.16rem;
+	color: #3e3e3e;
+}
+.shopcar-three-price{
+	width: 1.42rem;
+	height: 100%;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 1.16rem;
+	color: #d34843;
+}
+.shopcar-three-jie{
+	width: 1.88rem;
+	height: 100%;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 1.16rem;
+	background: #d34843;
+	color: #FFFFFF;
+}
+/* 购物车内容结束 */
+/* 购物车底部开始 */
+.over{
+    width: 100%;
+	height: 1.4rem;
+	background: #FFFFFF;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+}
+.bottom-cate-list{
+	width: 100%;
+	height: 1rem;
+	/* background: green; */
+	margin-top: 0.25rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.1rem 0.24rem 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.bottom-cate-item{
+	width: 0.6rem;
+	height: 100%;
+}
+.bottom-cate-img{
+	width: 100%;
+	height: 0.6rem;
+	display: block;
+}
+.bottom-cate-item img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.bottom-cate-img .bottom-cate-name{
+	color: #999999;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.25rem;
+	white-space: nowrap;
+	margin-top: 0.16rem;
+}
+.bottom-cate-img .bottom-cate-name-a{
+	color: #cfa270;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.25rem;
+	margin-top: 0.16rem;
+	white-space: nowrap;
+}
+/* 购物车底部结束 */

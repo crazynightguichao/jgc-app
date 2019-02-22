@@ -1,0 +1,453 @@
+.big-box{
+	width: 7.5rem;
+	height: 24.80rem;
+	background: #dfdede;
+}
+/* 首页头部开始 */
+.index-head{
+	width: 100%;
+	height: 2rem;
+	background: #835f3d;
+	/* display: flex; */
+}
+.index-head h2{
+	color: #fff;
+	font-size: 0.36rem;
+	font-weight: 200;
+	text-align: center;
+	line-height: 1rem;
+	
+}
+.index-search{
+	width: 5.8rem;
+	height: 0.6rem;
+	/* background: red; */
+	margin: 0 auto;
+	position: relative;
+}
+.index-search .index-input{
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 0.3rem;
+	outline: none;/* 去掉默认选中状态 */
+	padding: 0 1.27rem;
+	box-sizing: border-box;
+}
+.index-input::-webkit-input-placeholder{/* 改字体颜色... */
+	color: #b0b0b0;
+}
+.index-search i{
+	position:absolute ;
+	font-size: 0.3rem;
+	left: 0.9rem;
+	top: 0.18rem;
+	color: #b0b0b0;
+}
+/* 首页头部结束 */
+
+/* 首页轮播图开始 */
+.index-banner{
+	width: 100%;
+	height: 3.12rem;
+	/* background: red; */
+	position: relative;
+	
+}
+.index-banner-top{
+	widows: 100%;
+	height: 2.36rem;
+	background: #d33a2d;
+}
+.index-banner-bottom{
+	width: 100%;
+	height: 0.76rem;
+	background: #e9ca8a;
+}
+.index-banner-img{
+	width: 7.02rem;
+	height: 2.7rem;
+	/* background: red; */
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border-radius: 0.24rem;
+	overflow: hidden;
+	
+}
+.index-banner-img img{
+	display: block;
+	width: 100%;
+	
+}
+.dots{
+	width: 1.52rem;
+	height: 0.16rem;
+	/* background: green; */
+	position: absolute;
+	bottom: 0.2rem;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.dot{
+	width: 0.16rem;
+	height: 0.16rem;
+	background: #a7a7a7;
+	border-radius: 50%;
+}
+.dot.dot-hover{
+	background: #2A1311;
+}
+/* 首页轮播图结束 */
+
+/* 首页分类列表开始 */
+.index-cate{
+	widows: 100%;
+	height: 3.14rem;
+	background: #FFFFFF;
+	padding: 0 0.24rem;
+	box-sizing: border-box;
+	overflow: hidden;
+	
+}
+.index-cate-list{
+	width: 100%;
+	height: 1.3rem;
+	/* background: green; */
+	margin-top: 0.25rem;
+	display: flex;
+	justify-content: space-between;
+}
+.index-cate-item{
+	width: 1rem;
+	height: 100%;
+}
+.index-cate-img{
+	width: 100%;
+	height: 1rem;
+}
+.index-cate-item img{
+	width: 100%;
+	display: block;
+}
+.index-cate-img .index-cate-name{
+	color: #575756;
+	font-size: 0.24rem;
+	text-align: center;
+}
+.envelopes{
+	width: 5.36rem;
+	height: 0.9rem;
+	background: #db5e5a;
+	border-radius: 0.45rem;
+	margin: 0.4rem auto 0;
+	border: 0.03rem soild #e9ca8a;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+.envelopes .e-number{
+	color: #f2e4c7;
+	font-size: 0.4rem;
+	margin-right: 0.2rem;
+	margin-bottom: 0.1rem;
+}
+.e-number span{
+	font-size: 0.26rem;
+	margin-right: -0.15rem;
+}
+.envelopes .e-intro{
+	font-size: 0.3rem;
+	color: #F2E4C7;
+}
+.e-intro-text{
+	font-size: 0.12rem;
+	margin-bottom: 0.05rem;
+}
+.open{
+	width: 0.9rem;
+	height: 0.9rem;
+	background: #F2E4C7;
+	box-sizing: border-box;
+	border-radius: 50%;
+	color: #74530e;
+	font-size: 0.46rem;
+	text-align: center;
+	line-height: 0.8rem;
+	margin-right: -1.68rem;
+	border: 0.06rem solid #DB5E5A;
+}
+/* 首页分类列表结束 */
+
+/* 小米众筹开始 */
+.chou{
+	width: 7.5rem;
+	height: 7rem;
+	background: #FFFFFF;
+	margin-top: 0.08rem;
+	padding: 0 0.24rem;
+	margin: 0.08rem auto;
+	box-sizing: border-box;
+}
+.chou-header{
+	width: 100%;
+	height: 0.6rem;
+	background: #FFFFFF;
+	margin: 0 auto ;
+	font-size: 0.3rem; 
+	padding-top: 0.26rem;
+}
+.chou-title{
+	font-weight: 400;
+	line-height: 0.36rem;
+	color: #454544;
+	float: left;
+}
+.chou-more{
+	width: 1.18rem;
+	height: 0.86rem;
+	font-size: 0.24rem;
+	line-height: 0.36rem;
+    color: #8f8f8e;
+	float: right;
+}
+.bd-img{
+	width: 7rem;
+	height: 3.6rem;
+	margin: 0 auto;
+}
+.bd-img img{
+	width: 100%;
+	height: 100%;
+	
+}
+.one{
+	width: 2.8rem;
+	height: 0.4rem;
+	margin-top: 0.16rem;
+	margin-left: 0;
+	font-size: 0.36rem;
+	color: #3a3a39;
+	
+}
+.two{
+	width: 5.9rem;
+	height: 0.3rem;
+	font-size: 0.28rem;
+	color: #b0b0b0;
+	margin-left: 0;
+	margin-top: 0.25rem;
+}
+.three{
+	width: 0.8rem;
+	height: 0.25rem;
+	font-size: 0.28rem;
+	color: #e7052b;
+	margin-left: 0;
+	margin-top: 0.2rem;
+}
+.four{
+	width: 2rem;
+	height: 0.25rem;
+	color: #464546;
+	font-size: 0.24rem;
+	margin-left: 0;
+	margin-top: 0.2rem;
+	position: relative;
+}
+.four a{
+	width: 0.6rem;
+	height: 100%;
+	font-size: 0.24rem;
+	color: #575657;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 6rem;
+}
+span{
+	color:#e7052b ;
+}
+.five-a{
+	width: 6.7rem;
+	height: 0.06rem;
+	background: #a7a7a7;
+	position: relative;
+	margin-top: 0.16rem;
+}
+.five-i{
+	width: 6rem;
+	height: 0.06rem;
+	background: #f78c00;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0.6rem;
+}
+/* 小米众筹结束 */
+
+/* 今日有品开始 */
+
+.pin-header{
+	width: 100%;
+	height: 0.9rem;
+	background: #FFFFFF;
+	margin: 0 auto ;
+	font-size: 0.3rem; 
+	
+	padding: 0.1rem 0.24rem 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+	
+}
+.pin-title{
+	font-weight: 400;
+	line-height: 0.36rem;
+	color: #454544;
+	float: left;
+}
+.pin-more{
+	width: 1.18rem;
+	height: 0.86rem;
+	font-size: 0.24rem;
+	line-height: 0.36rem;
+    color: #8f8f8e;
+	float: right;
+}
+.pin-bd{
+	width: 100%;
+	height: 2.7rem;
+	background: #FFFFFF;
+	margin-top: 0;
+	
+}
+.pin-img{
+	width: 1.6rem;
+	height: 1.2rem;
+	background: red;
+	margin-left: 0.46rem;
+	margin-top: 0.8rem;
+	float: left;
+}
+.pin-img img{
+	width: 100%;
+	height: 100%;
+}
+.pin-body{
+	width: 4.6rem;
+	height: 2.7rem;
+	float: right;
+	
+}
+.pin-title{
+	width: 2rem;
+	height: 0.35rem;
+	font-size: 0.3rem;
+	color: #2e2e2e;
+	overflow: hidden;/* 超出部分隐藏 */
+	text-overflow: ellipsis;/* 文本超出部分省略 */
+	white-space: nowrap;/* 文字不换行 */
+	margin-top: 0.2rem;
+}
+.pin-tedian{
+	width: 4.1rem;
+	height: 0.5rem;
+	font-size: 0.24rem;
+	color: #a7a7a7;
+	
+	overflow: hidden;/* 超出部分隐藏 */
+	text-overflow: ellipsis;/* 文本超出部分省略 */
+	white-space: nowrap;/* 文字不换行 */
+	
+}
+.pin-price{
+	width: 1rem;
+	height: 0.3rem;
+	font-size: 0.24rem;
+	color: #d50d0d;
+	margin-top: 0.5rem;
+}
+/* 今日有品结束 */
+
+/* 底部开始 */
+.bottom-box{
+	width: 100%;
+	height: 2rem;
+	background: #dfdede;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+.bottom-z{
+	width: 5.3rem;
+	height: 0.6rem;
+	font-size: 0.24rem;
+	color: #5b5b5b;
+	white-space: nowrap;
+}
+.over{
+    width: 100%;
+	height: 1.3rem;
+	background: #FFFFFF;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+	position: fixed;
+	top: 12.02rem;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.bottom-cate-list{
+	width: 100%;
+	height: 0.8rem;
+	/* background: green; */
+	margin-top: 0.25rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.1rem 0.24rem 0;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.bottom-cate-item{
+	width: 0.6rem;
+	height: 100%;
+}
+.bottom-cate-img{
+	width: 100%;
+	height: 0.6rem;
+	display: block;
+}
+.bottom-cate-item img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	
+}
+.bottom-cate-img .bottom-cate-name{
+	width: 0.6rem;
+	height: 100%;
+	color: #999999;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.25rem;
+	white-space: nowrap;
+	margin-top: 0.16rem;
+}
+.bottom-cate-img .bottom-cate-name-a{
+	width: 0.6rem;
+	height: 100%;
+	color: #cfa270;
+	font-size: 0.24rem;
+	text-align: center;
+	margin-top: 0.16rem;
+}
+/* 底部结束 */
+
+
